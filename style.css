@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    display: flex;
+    
+   
+}
+.half-width {
+    width: 50%;
+}
+h1 {
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+}
+span {
+    color: coral;
+}
+p {
+    font-weight: 500;
+    margin: 0px 10px 10px 20px;
+    padding: 5px 10px 10px 10px;
+}
+.oder-btn {
+      text-decoration: none;
+      background-color: coral;
+      border-radius: 20px;
+      padding: 10px;
+      margin: 20px;
+     background-image: linear-gradient(to right,pink,coral);
+      
+}
+.hero-img{
+    width: 100%;
+    height: 300px;
+     
+     
+}
+.about-me {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+}
+.about-img {
+    width: 100%;
+    height: 500px;
+}
+ .recipe {
+    display: flex;
+    margin: 5px;
+ }
+ .recipce-img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 10px 10px 8px gray;
+     
+ }
+ .half-width h3 {
+    margin: 20px;
+ }
+ .footer-section {
+    display: flex;
+    background-color: rgb(243, 235, 235);
+    text-align: center;
+    justify-content: space-around;
+     
+ }
